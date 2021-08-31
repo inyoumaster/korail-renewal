@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국철도</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/function.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+
+    <header>
+      <h1 class="logo"><a href="#">한국철도</a></h1>
+
+      <nav>
+        <ul class="gnb">
+          <li>
+            <a href="#">정보공개</a>
+            <ol class="lnb">
+              <li><a href="#">정보공개 제도안내</a></li>
+              <li><a href="#">사전정보공표</a></li>
+              <li><a href="#">정보목록</a></li>
+              <li><a href="#">정보공개 청구</a></li>
+              <li><a href="#">사업실명제</a></li>
+              <li><a href="#">소송현황</a></li>
+              <li><a href="#">공공데이터</a></li>
+              <li><a href="#">자료실</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">사업분야</a>
+            <ol class="lnb">
+              <li><a href="#">여객사업</a></li>
+              <li><a href="#">광역철도사업</a></li>
+              <li><a href="#">종합물류사업</a></li>
+              <li><a href="#">자산개발사업</a></li>
+              <li><a href="#">해외사업 &middot; 국제협력</a></li>
+              <li><a href="#">시설유지보수사업</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">열린경영</a>
+            <ol class="lnb">
+              <li><a href="#">지속가능경영</a></li>
+              <li><a href="#">철도안전</a></li>
+              <li><a href="#">윤리경영</a></li>
+              <li><a href="#">사회공헌</a></li>
+              <li><a href="#">동반성장</a></li>
+              <li><a href="#">환경경영</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">사이버홍보실</a>
+            <ol class="lnb">
+              <li><a href="#">보도자료</a></li>
+              <li><a href="#">코레일 SNS</a></li>
+              <li><a href="#">간행물</a></li>
+              <li><a href="#">공지사항</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">고객지원</a>
+            <ol class="lnb">
+              <li><a href="#">고객의소리</a></li>
+              <li><a href="#">서비스아이디어톡톡</a></li>
+              <li><a href="#">부패추방센터</a></li>
+              <li><a href="#">예산낭비신고센터</a></li>
+              <li><a href="#">고객서비스헌장</a></li>
+              <li><a href="#">철도체험학습장</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">코레일소개</a>
+            <ol class="lnb">
+              <li><a href="#">공사소개</a></li>
+              <li><a href="#">CEO</a></li>
+              <li><a href="#">조직&middot;기능</a></li>
+              <li><a href="#">계열사</a></li>
+              <li><a href="#">CI</a></li>
+              <li><a href="#">채용정보</a></li>
+              <li><a href="#">경영공시(IR)</a></li>
+              <li><a href="#">철도명예의전당</a></li>
+              <li><a href="#">코레일 사규</a></li>
+              <li><a href="#">스포츠단</a></li>
+              <li><a href="#">오케스트라</a></li>
+            </ol>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="sub">
+        <li><a href="#">홈</a></li>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">통합회원가입</a></li>
+        <li><a href="#">전체메뉴</a></li>
+        <li><a href="#">어린이</a></li>
+        <li><a href="#">ENGLISH</a></li>
+      </ul>
+
+      <p class="background">
+
+        <span class="frame"></span>
+      </p>
+
+      <div class="mobile">
+
+        <ul class="mob-sub">
+          <li><a href="#">홈</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">통합회원가입</a></li>
+          <li><a href="#">전체메뉴</a></li>
+          <li><a href="#">어린이</a></li>
+          <li><a href="#">ENGLISH</a></li>
+        </ul>
+
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="#">정보공개</a>
+              <ol class="lnb">
+                <li><a href="#">정보공개 제도안내</a></li>
+                <li><a href="#">사전정보공표</a></li>
+                <li><a href="#">정보목록</a></li>
+                <li><a href="#">정보공개 청구</a></li>
+                <li><a href="#">사업실명제</a></li>
+                <li><a href="#">소송현황</a></li>
+                <li><a href="#">공공데이터</a></li>
+                <li><a href="#">자료실</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">사업분야</a>
+              <ol class="lnb">
+                <li><a href="#">여객사업</a></li>
+                <li><a href="#">광역철도사업</a></li>
+                <li><a href="#">종합물류사업</a></li>
+                <li><a href="#">자산개발사업</a></li>
+                <li><a href="#">해외사업 &middot; 국제협력</a></li>
+                <li><a href="#">시설유지보수사업</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">열린경영</a>
+              <ol class="lnb">
+                <li><a href="#">지속가능경영</a></li>
+                <li><a href="#">철도안전</a></li>
+                <li><a href="#">윤리경영</a></li>
+                <li><a href="#">사회공헌</a></li>
+                <li><a href="#">동반성장</a></li>
+                <li><a href="#">환경경영</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">사이버홍보실</a>
+              <ol class="lnb">
+                <li><a href="#">보도자료</a></li>
+                <li><a href="#">코레일 SNS</a></li>
+                <li><a href="#">간행물</a></li>
+                <li><a href="#">공지사항</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">고객지원</a>
+              <ol class="lnb">
+                <li><a href="#">고객의소리</a></li>
+                <li><a href="#">서비스아이디어톡톡</a></li>
+                <li><a href="#">부패추방센터</a></li>
+                <li><a href="#">예산낭비신고센터</a></li>
+                <li><a href="#">고객서비스헌장</a></li>
+                <li><a href="#">철도체험학습장</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">코레일소개</a>
+              <ol class="lnb">
+                <li><a href="#">공사소개</a></li>
+                <li><a href="#">CEO</a></li>
+                <li><a href="#">조직&middot;기능</a></li>
+                <li><a href="#">계열사</a></li>
+                <li><a href="#">CI</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">경영공시(IR)</a></li>
+                <li><a href="#">철도명예의전당</a></li>
+                <li><a href="#">코레일 사규</a></li>
+                <li><a href="#">스포츠단</a></li>
+                <li><a href="#">오케스트라</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mob-shadow">
+        </div>
+
+      </div> <!-- end of mobile -->
+
+      <div class="btn-box">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+    </header>
+    <hr />
+    <section>
+      <h2 class="sr-only">content</h2>
+
+      <article class="banner">
+        <h3 class="sr-only">배너</h3>
+
+        <ul class="slides">
+          <li><a href="#">배너1</a></li>
+          <li><a href="#">배너2</a></li>
+          <li><a href="#">배너3</a></li>
+        </ul>
+
+
+        <ul class="pagination">
+          <li class="on"><a href="#">버튼1</a></li>
+          <li><a href="#">버튼2</a></li>
+          <li><a href="#">버튼3</a></li>
+        </ul>
+      </article>
+
+      <article class="service">
+
+        <h3>철도서비스</h3>
+
+        <ul class="serv-list">
+          <li class="on"><a href="#">KORAIL 노선</a></li>
+          <li><a href="#">KTX 노선</a></li>
+        </ul>
+
+        <div class="map">
+          <div class="total">
+
+            <figure>
+              <h4>KORAIL 기차 노선</h4>
+              <p><img src="./images/total-map.png" alt="#"></p>
+              <figcaption>KORAIL map</figcaption>
+            </figure>
+            <ul class="total-list">
+              <li>
+                <a href="#">수도권</a>
+              </li>
+              <li>
+                <a href="#">충청권</a>
+              </li>
+              <li>
+                <a href="#">강원권</a>
+              </li>
+              <li>
+                <a href="#">경상권</a>
+              </li>
+              <li>
+                <a href="#">전라권</a>
+              </li>
+            </ul>
+
+
+            <ul class="total-box">
+              <li>수도권 맵</li>
+              <li>충청권 맵</li>
+              <li>강원권 맵</li>
+              <li>경상권 맵</li>
+              <li>전라권 맵</li>
+            </ul>
+
+            <div class="shadow">
+              <a href="#" class="close">닫기</a>
+            </div>
+
+          </div> <!-- end of total -->
+
+          <div class="ktx">
+
+            <figure>
+              <h4>고속열차 노선</h4>
+              <p><img src="./images/ktx-map.png" alt="#"></p>
+              <figcaption>KORAIL SRT</figcaption>
+            </figure>
+
+            <ul class="ktx-list">
+              <li>
+                <a href="#">
+                  경부선
+                  <img src="./images/ktx1.png" alt="경부선">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  경전선
+                  <img src="./images/ktx2.png" alt="경전선">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  전라선
+                  <img src="./images/ktx3.png" alt="전라선">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  호남선
+                  <img src="./images/ktx4.png" alt="호남선">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  강릉선
+                  <img src="./images/ktx5.png" alt="강릉선">
+                </a>
+              </li>
+            </ul>
+
+            <ul class="ktx-box">
+              <li>경부선 KTX</li>
+              <li>경전선 KTX</li>
+              <li>전라선 KTX</li>
+              <li>호남선 KTX</li>
+              <li>강릉선 KTX</li>
+            </ul>
+
+            <div class="shadow">
+              <a href="#" class="close">닫기</a>
+            </div>
+
+          </div>
+
+        </div> <!-- end of map -->
+
+      </article> <!-- end of service -->
+
+      <article class="board">
+        <h3 class="sr-only">게시판</h3>
+
+        <ul class="brd-list">
+          <li class="on"><a href="#">공지사항</a></li>
+          <li><a href="#">보도자료</a></li>
+        </ul>
+
+        <div class="notice">
+          <h4 class="sr-only">공지사항</h4>
+          <ul class="list">
+            <li>
+              <a href="#" class="title">한국철도공사 연구원 위촉연구원 공개 모집</a>
+              <span class="date">2021-08-30</span>
+            </li>
+            <li>
+              <a href="#">공동연구기관 모집 공고</a>
+              <span class="date">2021-08-27</span>
+            </li>
+            <li>
+              <a href="#">공동연구 대학(산학협력단) 모집 공고</a>
+              <span class="date">2021-08-25</span>
+            </li>
+            <li>
+              <a href="#">공동연구기관 모집 공고</a>
+              <span class="date">2021-08-17</span>
+            </li>
+            <li>
+              <a href="#">제12회 철도 사진공모전</a>
+              <span class="date">2021-08-09</span>
+            </li>
+            <li>
+              <a href="#">개인정보파일 목적 외 이용제공 대장</a>
+              <span class="date">2021-07-28</span>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="report">
+          <h4 class="sr-only">보도자료</h4>
+
+          <ul class="list">
+            <li>
+              <a href="#">"기차와의 행복한 기억을 그려주세요"</a>
+              <span class="date">2021-08-27</span>
+            </li>
+            <li>
+              <a href="#">한국철도, 추석 승차권</a>
+              <span class="date">2021-08-25</span>
+            </li>
+            <li>
+              <a href="#">한국철도,태풍 '오마이스' 대비 안전확보</a>
+              <span class="date">2021-08-23</span>
+            </li>
+            <li>
+              <a href="#">"지역 농가도 돕고, 어려운 이웃도 돕고!"</a>
+              <span class="date">2021-08-19</span>
+            </li>
+            <li>
+              <a href="#">중앙선 KTX=이음 '2021 올해의 녹색상'</a>
+              <span class="date">2021-08-13</span>
+            </li>
+            <li>
+              <a href="#">한국철도, 제12회 철도사진공모전 개최</a>
+              <span class="date">2021-08-09</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="sns">
+        <h3 class="sr-only">sns</h3>
+        <ul class="list">
+          <li class="on"><a href="#">TWITTER</a></li>
+          <li><a href="#">FACEBOOK</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+
+        <div class="twitter">
+          <a href="#">
+            <span class="frame"></span>
+            <p>코레일이 운영하는 트위터 페이지로 이동합니다.</p>
+          </a>
+        </div>
+
+        <div class="facebook">
+          <a href="#">
+            <span class="frame"></span>
+            <p>코레일이 운영하는 페이스북 페이지로 이동합니다.</p>
+          </a>
+        </div>
+
+        <div class="blog">
+          <a href="#">
+            <span class="frame"></span>
+            <p>코레일이 운영하는 BLOG 페이지로 이동합니다.</p>
+          </a>
+        </div>
+      </article>
+
+
+    </section>
+    <hr />
+    <footer>
+      <address class="text-center">&copy;Designed by 정동민</address>
+    </footer>
+  </div>
+</body>
+
+</html>
