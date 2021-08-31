@@ -1117,20 +1117,29 @@ footer {
 
 		> .service {
 			margin-top: -160px;
-
+			> h3 {
+				font-size: 14px;
+			}
+			.serv-list {
+				> li {
+					> a {
+						font-size: 14px;
+					}
+				}
+			}
 			> .map {
 				.total {
 					> figure {
-						width: 400px;
-						margin-left: 150px;
+						width: 200px;
+						margin-left: 100px;
 					}
 					> .total-list {
-						margin-left: 25px;
+						margin: 0 auto;
 						> li {
 							position: initial;
-							width: 100px;
-							height: 150px;
-							margin-left: 15px;
+							width: 83px;
+							height: 120px;
+							margin-left: 25px;
 
 							> a {
 								position: initial;
@@ -1142,17 +1151,17 @@ footer {
 				> .ktx {
 					display: none;
 					> figure {
-						width: 400px;
-						margin-left: 150px;
+						width: 200px;
+						margin-left: 100px;
 					}
 
 					> .ktx-list {
-						margin-left: 20px;
+						margin: 0 auto;
 						> li {
 							position: initial;
-							width: 100px;
-							height: 150px;
-							margin-left: 18px;
+							width: 80px;
+							height: 140px;
+							margin-left: 26px;
 							> a {
 								color: #000;
 								font-weight: 600;
@@ -1167,36 +1176,52 @@ footer {
 			} // end of map
 		} // end of service
 		> .board {
+			margin: 800px 0 0 -500px;
 			> .brd-list {
-				margin-left: -300px;
+				margin-left: 0px;
 			}
 
 			> .notice {
-				width: 600px;
-				margin-left: -300px;
+				width: 500px;
+				margin: 0 auto;
 			} // end of notice
 
 			> .report {
-				width: 600px;
-				margin-left: -300px;
+				width: 500px;
+				margin: 0 auto;
 			} // end of report
 		}
 
 		.sns {
-			margin-left: -300px;
+			margin-left: -250px;
 			> .list {
-				width: 602px;
+				width: 502px;
 			}
 			> .twitter {
-				width: 602px;
+				width: 502px;
+				> a {
+					> p {
+						font-size: 13px;
+					}
+				}
 			}
 
 			> .facebook {
-				width: 602px;
+				width: 502px;
+				> a {
+					> p {
+						font-size: 13px;
+					}
+				}
 			}
 
 			> .blog {
-				width: 602px;
+				width: 502px;
+				> a {
+					> p {
+						font-size: 13px;
+					}
+				}
 			}
 		} // end of sns
 	}
