@@ -1280,6 +1280,7 @@ footer > address {
     margin-left: 5%;
   }
   section > .service > .map .total > .total-list {
+    justify-content: space-around;
     margin-left: -4%;
   }
   section > .service > .map .total > .total-list > li {
@@ -1295,7 +1296,8 @@ footer > address {
     display: none;
   }
   section > .service > .map > .ktx > figure {
-    margin-left: 15%;
+    margin-left: 10%;
+
   }
   section > .service > .map > .ktx > .ktx-list {
     -ms-flex-pack: distribute;
@@ -1350,4 +1352,4 @@ footer > address {
     width: 100%;
   }
 }
-/* # sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */

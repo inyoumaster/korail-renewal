@@ -71,11 +71,11 @@ $(()=>{
     evt.preventDefault();
 
     nowIdx = $indicator.index(evt.currentTarget);
+    
 
     $slides.stop().fadeOut().eq(nowIdx).stop().fadeIn(1000).siblings().fadeOut(1000);
     $indicator.eq(nowIdx).addClass('on').siblings().removeClass('on');
   }); // end of banner
-
 
 
   // 철도서비스 메뉴 (list);
