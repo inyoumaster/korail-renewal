@@ -28,8 +28,8 @@ header > nav {
 }
 
 header > nav > .gnb {
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -1350,4 +1350,4 @@ footer > address {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/* # sourceMappingURL=style.css.map */
