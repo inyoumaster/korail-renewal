@@ -331,7 +331,7 @@ section > .service > .map {
 section > .service > .map .total {
   display: block;
   position: absolute;
-  left: 0;
+  left: 7%;
   top: 0;
 }
 
@@ -468,7 +468,7 @@ section > .service > .map .total > .total-box > li:nth-of-type(5) {
 section > .service > .map > .ktx {
   display: none;
   position: absolute;
-  left: 0;
+  left: 7%;
   top: 0;
 }
 
@@ -885,9 +885,12 @@ footer > address {
   section > .service {
     margin-top: -10px;
   }
+  section > .service > .map .total {
+    left: 0;
+  }
   section > .service > .map .total > figure {
     width: 400px;
-    margin-left: 400px;
+    margin-left: 35%;
   }
   section > .service > .map .total > .total-list {
     display: -webkit-box;
@@ -904,6 +907,9 @@ footer > address {
   section > .service > .map .total > .total-list > li > a {
     position: initial;
   }
+  section > .service > .map > .ktx {
+    left: 0;
+  }
   section > .service > .map > .ktx > figure {
     width: 400px;
     margin-left: 45%;
@@ -912,7 +918,7 @@ footer > address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 10%;
+    margin-left: 20%;
   }
   section > .service > .map > .ktx > .ktx-list > li {
     position: initial;
@@ -1124,11 +1130,14 @@ footer > address {
     width: 100%;
     margin-left: 25%;
   }
+  section > .service > .map > .ktx > .ktx-list {
+    margin-left: 10%;
+  }
   section > .service > .map > .ktx > .ktx-list > li {
     position: initial;
-    width: 100%;
+    width: 120px;
     height: 170px;
-    margin-left: 0;
+    margin-left: 12px;
   }
   section > .service > .map > .ktx > .ktx-list > li > a {
     color: #000;
@@ -1136,7 +1145,7 @@ footer > address {
   }
   section > .service > .map > .ktx > .ktx-list > li > a > img {
     width: 120px;
-    height: 170px;
+    height: 150px;
   }
   section > .board {
     margin-top: 800px;
@@ -1277,7 +1286,7 @@ footer > address {
   }
   section > .service > .map .total > figure {
     width: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   section > .service > .map .total > .total-list {
     margin-left: -4%;
@@ -1304,6 +1313,7 @@ footer > address {
   }
   section > .service > .map > .ktx > .ktx-list > li {
     position: initial;
+    width: 100%;
     height: 150px;
     margin-left: 0;
   }
