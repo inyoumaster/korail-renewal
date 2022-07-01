@@ -912,13 +912,13 @@ footer > address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   section > .service > .map > .ktx > .ktx-list > li {
     position: initial;
     width: 150px;
     height: 200px;
-    margin-left: -10px;
+    margin-left: 15px;
   }
   section > .service > .map > .ktx > .ktx-list > li > a {
     color: #000;
@@ -1280,7 +1280,6 @@ footer > address {
     margin-left: 5%;
   }
   section > .service > .map .total > .total-list {
-    justify-content: space-around;
     margin-left: -4%;
   }
   section > .service > .map .total > .total-list > li {
@@ -1297,7 +1296,6 @@ footer > address {
   }
   section > .service > .map > .ktx > figure {
     margin-left: 10%;
-
   }
   section > .service > .map > .ktx > .ktx-list {
     -ms-flex-pack: distribute;
