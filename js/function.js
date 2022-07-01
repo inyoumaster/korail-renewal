@@ -1,6 +1,6 @@
 $(()=>{
   
-  let nowIdx;
+  let nowIdx = 0;
 
   
   // 네비게이션
@@ -51,7 +51,7 @@ $(()=>{
   // 배너
   const $slides = $('section>.banner>.slides>li');
   const $indicator = $('section>.banner>.pagination>li');
-
+  
 
   const bannerAuto = ()=>{
 
@@ -65,6 +65,8 @@ $(()=>{
     $slides.stop().fadeOut().eq(nowIdx).fadeIn(1000).siblings().fadeOut();
     $indicator.eq(nowIdx).addClass('on').siblings().removeClass('on');
    5000},5000);
+
+
   };
 
   $indicator.on('click',(evt)=>{
